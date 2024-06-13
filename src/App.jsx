@@ -1,11 +1,19 @@
-import { useState } from "react";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "../src/components/ui/navigation-menu";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <h1 className=" bg-blue-500 text-green-500 text-5xl text-center">
-        hello
-      </h1>
+      <Header />
     </>
   );
 }
