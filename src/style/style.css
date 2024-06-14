@@ -42,10 +42,76 @@ h1 {
   /* font-weight: bold; */
   unicode-bidi: isolate;
 }
-.kuda-main--heading {
+.left {
+  max-width: 396px;
+}
+.left h1 {
   margin-bottom: 20px;
   font-weight: 900;
   color: var(--primaryColor);
   font-size: 3rem !important;
   line-height: 1.15;
+}
+.left p {
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+  /* margin-bottom: 31px; */
+  font-weight: 400;
+  color: var(--blackColor) !important;
+  line-height: 1.5;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+.hasAnimation {
+  margin-top: -12px;
+  position: relative;
+}
+.kuda-business-illustration--center,
+.kuda-illustration--center {
+  display: flex;
+  justify-content: center;
+}
+.card-item p {
+  font-size: 0.975rem;
+}
+.text-xlbold {
+  font-weight: 900;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.summary-top .card {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.summary-top .card {
+  width: calc(33.33% - 13px);
+}
+.card-item {
+  background-color: var(--whiteColor);
+  border-radius: 5px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.06);
+  padding: 22px 25px;
+}
+.summary-bottom {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.summary-bottom .card {
+  width: calc(33.33% - 13px);
+  border: none;
+  border-radius: 5px;
+}
+.summary-bottom .card:not(:last-child) {
+  margin-right: 20px;
 }

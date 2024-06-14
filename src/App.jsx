@@ -11,13 +11,15 @@ import {
 import Header from "./components/Header";
 import Section1 from "./components/Section1";
 import "@/style/style.css";
+import Section2 from "./components/Section2";
 
 function App() {
   return (
     <>
       <Header />
-      <div className="kuda-preview">
+      <div className="kuda-preview md:pt-[48px] md:pr-[40px] md:pb-[60px] md:pl-[40px]">
         <Section1 />
+        <Section2 />
       </div>
     </>
   );
