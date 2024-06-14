@@ -1,0 +1,100 @@
+:root {
+  --primaryColor: #40196d;
+  --lightBlueColor: #1dcbef;
+  --blackColor: #000;
+  --successColor: #48d38a;
+  --negativeColor: #f7685b;
+  --textColor: #979797;
+  --whiteColor: #fff;
+  --whiteAlt: #fff;
+  --darkAlt: #000;
+  --offWhite: #f9f9f9;
+  --offWhiteTrans: hsla(228, 7%, 87%, 0.3);
+  --borderOff: hsla(228, 7%, 87%, 0.5);
+  --offText: rgba(0, 0, 0, 0.5);
+  --bgOffset: #f4f4f4;
+  --placeHolder: #979797;
+  --offBlue: #eff1ff;
+  --boxShadow: rgba(64, 25, 109, 0.07);
+  --offBlueTran: rgba(223, 227, 255, 0.3);
+  --primaryAlt: #40196d;
+  --offGreen: rgba(72, 211, 138, 0.5);
+  --ctaOffBlue: rgba(64, 25, 109, 0.3);
+  --overlay: rgba(64, 25, 109, 0.2);
+  --successColorTrans: #dcffec;
+}
+.kuda-section--bg {
+  background: #fbfbfb;
+  margin-top: 7%;
+  padding-bottom: 7%;
+  padding-top: 8%;
+}
+.kuda-ignore--container {
+  left: 50%;
+  margin-left: -50vw;
+  position: relative;
+  width: 100vw;
+}
+.kuda-section {
+  margin-top: 12.5%;
+}
+.partners-image img {
+  cursor: pointer;
+  transition: filter 0.2s;
+  -webkit-transition: filter 0.2s;
+  -moz-transition: filter 0.2s;
+  -ms-transition: filter 0.2s;
+  -o-transition: filter 0.2s;
+}
+.partners-image img,
+.publication-image img:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+.partners-image {
+  align-items: center;
+  display: flex;
+}
+.kuda-standard--section {
+  margin-top: 0;
+  padding-top: 8%;
+}
+.plan-full {
+  background: #fff;
+  border: 1px solid hsla(228, 7%, 87%, 0.5);
+  border-radius: 5px;
+  box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+  width: 100%;
+}
+.plan-full .plan-features {
+  padding-right: 0;
+}
+.plan-features {
+  margin-bottom: 50px;
+}
+.plan-heading.flex {
+  padding-left: 72px;
+  padding-right: 72px;
+}
+.plan-full .plan-single {
+  width: 33.33%;
+}
+.plan-single--wrap,
+.pricing-single--wrap {
+  border-top: 1px solid hsla(228, 7%, 87%, 0.5);
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-top: 13px;
+}
+.plan-single--wrap {
+  display: flex;
+}
+.feature-summary {
+  margin-bottom: 13px;
+}
+.check-icon {
+  display: flex;
+  margin-right: 10px;
+  position: relative;
+  top: 4px;
+}
