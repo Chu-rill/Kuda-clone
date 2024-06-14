@@ -242,7 +242,7 @@ function Section9() {
             </div>
           </div>
         </div>
-        {/* <div className="kuda-section--100">
+        <div className="kuda-section--100">
           <div className="kuda-publication--wrap">
             <a
               href="https://techcrunch.com/2021/03/18/kuda-raises-25m-more-led-by-valar-to-become-the-neobank-for-every-african-on-the-planet/"
@@ -251,10 +251,10 @@ function Section9() {
               class="publication-image"
             >
               <img
-                src="data:image/svg+xml;base64,P…sbD0iIzBBOUUwMSIvPgo8L3N2Zz4K"
+                src="/add1.svg"
                 loading="lazy"
                 alt="kuda Microfinance Bank Publications"
-                style="height: auto; width: auto;"
+                // style="height: auto; width: auto;"
               ></img>
             </a>
             <a
@@ -264,10 +264,10 @@ function Section9() {
               class="publication-image"
             >
               <img
-                src="data:image/svg+xml;base64,P…KCQk8L2c+Cgk8L2c+Cjwvc3ZnPgo="
+                src="/add2.svg"
                 loading="lazy"
                 alt="kuda Microfinance Bank Publications"
-                style="height: auto; width: auto;"
+                // style="height: auto; width: auto;"
               ></img>
             </a>
             <a
@@ -277,10 +277,10 @@ function Section9() {
               class="publication-image"
             >
               <img
-                src="/static/fintech-0a9e579….svg"
+                src="/add3.svg"
                 loading="lazy"
                 alt="kuda Microfinance Bank Publications"
-                style="height: auto; width: auto;"
+                // style="height: auto; width: auto;"
               ></img>
             </a>
             <a
@@ -290,10 +290,10 @@ function Section9() {
               class="publication-image"
             >
               <img
-                src="data:image/svg+xml;base64,P…1NDdWMjg1LjAxM3oiLz48L3N2Zz4K"
+                src="/add4.svg"
                 loading="lazy"
                 alt="kuda Microfinance Bank Publications"
-                style="max-height: 40px;"
+                style={{ maxHeight: "40px" }}
               ></img>
             </a>
             <a
@@ -303,10 +303,10 @@ function Section9() {
               class="publication-image"
             >
               <img
-                src="/static/cnbc-45f58c7….svg"
+                src="/add5.svg"
                 loading="lazy"
                 alt="kuda Microfinance Bank Publications"
-                style="height: auto; width: auto;"
+                // style="height: auto; width: auto;"
               ></img>
             </a>
             <a
@@ -316,14 +316,14 @@ function Section9() {
               class="publication-image"
             >
               <img
-                src="/static/euromoney-2f7f12d….svg"
+                src="/add6.svg"
                 loading="lazy"
                 alt="kuda Microfinance Bank Publications"
-                style="height: auto; width: auto;"
+                // style="height: auto; width: auto;"
               ></img>
             </a>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
