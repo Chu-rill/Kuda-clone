@@ -118,6 +118,12 @@ p {
 }
 .testimonial-extras {
   margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.testimonial-extras p {
+  padding-top: 16px;
 }
 .kuda-publication--wrap {
   align-items: center;
