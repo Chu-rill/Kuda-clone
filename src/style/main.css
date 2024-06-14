@@ -44,7 +44,7 @@
   color: var(--blackColor) !important;
 }
 .kuda-section p {
-  font-size: 1rem;
+  /* font-size: 1rem; */
   line-height: 1.5;
 }
 .learn-more {
@@ -59,4 +59,27 @@
 }
 .arrow-right--icon {
   margin-left: 10px;
+}
+.kuda-text--right .kuda-section--wrap {
+  margin-left: auto;
+  margin-right: auto;
+}
+.kuda-section--wrap {
+  max-width: 420px;
+}
+.kuda-section--max {
+  max-width: 350px;
+}
+.color-black {
+  color: var(--blackColor) !important;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.kuda-section--max {
+  max-width: 350px;
+}
+.color-black {
+  color: var(--blackColor) !important;
 }

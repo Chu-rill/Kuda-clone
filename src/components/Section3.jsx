@@ -16,7 +16,7 @@ function Section3() {
                 <br />a simpler life.
               </span>
             </h1>
-            <p className="color-black kuda-section--max kuda-section">
+            <p className="color-black kuda-section--max kuda-section font-normal text-sm">
               We designed a money app for your lifestyle, and you can get a
               debit card to go with it. That's all you need to make the right
               money moves.
