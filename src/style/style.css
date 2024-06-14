@@ -23,6 +23,7 @@
   --overlay: rgba(64, 25, 109, 0.2);
   --successColorTrans: #dcffec;
 }
+
 .kuda-preview {
   min-height: calc(100vh - 120px);
   transform: translateY(0) !important;

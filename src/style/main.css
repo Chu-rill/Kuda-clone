@@ -1,0 +1,62 @@
+:root {
+  --primaryColor: #40196d;
+  --lightBlueColor: #1dcbef;
+  --blackColor: #000;
+  --successColor: #48d38a;
+  --negativeColor: #f7685b;
+  --textColor: #979797;
+  --whiteColor: #fff;
+  --whiteAlt: #fff;
+  --darkAlt: #000;
+  --offWhite: #f9f9f9;
+  --offWhiteTrans: hsla(228, 7%, 87%, 0.3);
+  --borderOff: hsla(228, 7%, 87%, 0.5);
+  --offText: rgba(0, 0, 0, 0.5);
+  --bgOffset: #f4f4f4;
+  --placeHolder: #979797;
+  --offBlue: #eff1ff;
+  --boxShadow: rgba(64, 25, 109, 0.07);
+  --offBlueTran: rgba(223, 227, 255, 0.3);
+  --primaryAlt: #40196d;
+  --offGreen: rgba(72, 211, 138, 0.5);
+  --ctaOffBlue: rgba(64, 25, 109, 0.3);
+  --overlay: rgba(64, 25, 109, 0.2);
+  --successColorTrans: #dcffec;
+}
+.kuda-section--heading {
+  font-size: 2.25rem;
+  line-height: 1.38;
+}
+.title-bottom--spacing {
+  margin-bottom: 20px;
+}
+.text-xlbold {
+  font-weight: 900;
+}
+.color-primary {
+  color: var(--primaryColor);
+}
+.kuda-section--max {
+  max-width: 350px;
+}
+
+.color-black {
+  color: var(--blackColor) !important;
+}
+.kuda-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.learn-more {
+  cursor: pointer;
+  display: inline-flex !important;
+  font-weight: 700;
+  margin-top: 26px;
+  text-decoration: underline;
+}
+.learn-more span {
+  display: inline-flex;
+}
+.arrow-right--icon {
+  margin-left: 10px;
+}
