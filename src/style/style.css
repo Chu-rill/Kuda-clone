@@ -1,12 +1,3 @@
-* {
-  -webkit-font-smoothing: antialiased;
-  /* -moz-osx-font-smoothing: grayscale; */
-}
-*,
-:after,
-:before {
-  box-sizing: inherit;
-}
 :root {
   --primaryColor: #40196d;
   --lightBlueColor: #1dcbef;
@@ -32,36 +23,29 @@
   --overlay: rgba(64, 25, 109, 0.2);
   --successColorTrans: #dcffec;
 }
-body {
-  font-family: Arial, sans-serif;
-  color: var(--textColor);
+.kuda-preview {
+  min-height: calc(100vh - 120px);
+  transform: translateY(0) !important;
+  transition: transform 0.8s;
+  margin-top: 70px;
+  padding: 70px 40px 63px;
+  margin-left: 93px;
+  margin-right: 93px;
 }
-header {
-  background: var(--whiteAlt);
-  box-shadow: 0 4px 13px rgba(0, 0, 0, 0.05);
-  align-items: center;
-}
-.kuda-brand {
-  min-width: 100px;
-}
-.kuda-brand a {
-  color: inherit;
-  text-decoration: none;
-}
-.kuda-menu--wrap {
-  border: 0;
-  /* font-size: 100%; */
-  font: inherit;
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
-}
-ul {
-  list-style: none;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+h1 {
+  display: block;
+  /* font-size: 2em; */
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  /* font-weight: bold; */
   unicode-bidi: isolate;
+}
+.kuda-main--heading {
+  margin-bottom: 20px;
+  font-weight: 900;
+  color: var(--primaryColor);
+  font-size: 3rem !important;
+  line-height: 1.15;
 }
