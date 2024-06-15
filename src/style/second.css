@@ -183,6 +183,41 @@ p {
   width: 100vw;
 }
 
+.kuda-get--wrap .mt-4 {
+  margin-top: 2rem !important;
+}
+.kuda-get--wrap .kuda-cta-long,
+.kuda-view-jobs {
+  max-width: 152px;
+}
+/* @media only screen and (min-width: 768px) and (max-width: 1440px) and (max-height: 798px) {
+    .kuda-cta {
+        font-size: 15px;
+    }
+} */
+.kuda-cta-long {
+  max-width: 242px;
+  width: 100%;
+}
+.kuda-cta,
+.kuda-cta-outline {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  padding: 15px;
+  transition: transform 0.6s;
+}
+.kuda-cta {
+  background: var(--primaryColor);
+  border-radius: 4px;
+  border-radius: 10px;
+  color: var(--whiteColor);
+  height: 48px;
+}
 /* @media only screen and (max-width: 720px) {
   .top {
     flex-direction: column;
