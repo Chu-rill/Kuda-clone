@@ -23,6 +23,9 @@
   --overlay: rgba(64, 25, 109, 0.2);
   --successColorTrans: #dcffec;
 }
+body {
+  overflow-x: hidden;
+}
 .kuda-section--bg {
   background: #fbfbfb;
   margin-top: 7%;
@@ -143,3 +146,86 @@
 .kuda-cta--section .kuda-main--wrap {
   max-width: 423px;
 }
+.left {
+  max-width: 396px;
+}
+.left h1 {
+  margin-bottom: 20px;
+  font-weight: 900;
+  color: var(--primaryColor);
+  font-size: 3rem !important;
+  line-height: 1.15;
+}
+.left p {
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+  margin-bottom: 31px;
+  font-weight: 400;
+  color: var(--blackColor) !important;
+  line-height: 1.5;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+.kuda-preview {
+  min-height: calc(100vh - 120px);
+  transform: translateY(0) !important;
+  transition: transform 0.8s;
+  margin-top: 70px;
+  padding: 70px 40px 63px;
+  margin-left: 93px;
+  margin-right: 93px;
+  width: 100vw;
+}
+
+/* @media only screen and (max-width: 720px) {
+  .top {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 720px) {
+  .kuda-preview {
+    min-height: calc(100vh - 120px);
+    transform: translateY(0) !important;
+    transition: transform 0.8s;
+    margin-top: 70px;
+    padding: 70px 40px 63px;
+    margin-left: 93px;
+    margin-right: 93px;
+  }
+  .top {
+    flex-direction: column;
+  }
+} */
+/* @media only screen and (max-width: 767px) {
+  .kuda-entry--inner > div > .kuda-main--wrap {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .kuda-cta--section .kuda-main--wrap {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .kuda-main--wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .kuda-main--wrap {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 360px;
+  }
+} */

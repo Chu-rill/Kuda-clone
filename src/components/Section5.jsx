@@ -9,7 +9,7 @@ function Section5() {
             <h1 className="kuda-section--heading text-xlbold color-primary title-bottom--spacing">
               Save money as you spend it, seriously.
             </h1>
-            <p className="color-black kuda-section--max font-normal text-sm">
+            <p className="color-black kuda-section--max font-normal ">
               You can’t avoid spending. That’s how you pay for your needs. But
               we can help you put money away every time you pay for something.
               Just set a percentage to save and watch your money grow.

@@ -4,7 +4,7 @@ function Section1() {
   return (
     <>
       <div className="kuda-entry--fold home-fold fade-active">
-        <div className="flex justify-around">
+        <div className="top flex justify-around">
           <div className="left">
             <h1>The money app for Africans.</h1>
             <p>

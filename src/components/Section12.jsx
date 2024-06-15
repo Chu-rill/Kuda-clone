@@ -293,18 +293,17 @@ function Section12() {
             </div>
             <div className="kuda-get--wrap desktop-only footer-global">
               <a
-                className="kuda-cta kuda-cta-long mt-4  kuda_web"
+                className="no-underline kuda-cta kuda-cta-long mt-4  kuda_web"
                 href="/joinKuda/"
               >
                 Join Kuda
               </a>
-              flex
             </div>
           </div>
         </div>
-        {/* <div className="kuda-section--50">
+        <div className="kuda-section--50">
           <div className="cta-illustration">
-            <svg width="435" height="412" viewBox="0 0 435 412" fill="none">
+            {/* <svg width="435" height="412" viewBox="0 0 435 412" fill="none">
               <circle
                 opacity="0.4"
                 cx="217.5"
@@ -2944,9 +2943,9 @@ function Section12() {
                   xlink:href="/face.png"
                 ></image>
               </defs>
-            </svg>
+            </svg> */}
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ function Section8() {
               {" "}
               Fees as clear as glass.
             </h1>
-            <p className="color-black kuda-section--max font-normal text-sm">
+            <p className="color-black kuda-section--max font-normal ">
               We’re serious about free banking, and we will never, ever charge
               you for anything without your consent.
             </p>

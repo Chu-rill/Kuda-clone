@@ -9,7 +9,7 @@ function Section7() {
             <h1 className="kuda-section--heading text-xlbold color-primary title-bottom--spacing">
               We’re always happy to help you.
             </h1>
-            <p className="color-black kuda-section--max font-normal text-sm">
+            <p className="color-black kuda-section--max font-normal">
               You can chat with us on the app, slide into our DMs, tweet, leave
               an Instagram comment, send an email or call. However you choose to
               reach out, there’ll always be a friendly person there to make your

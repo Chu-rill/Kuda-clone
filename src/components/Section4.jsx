@@ -10,7 +10,7 @@ function Section4() {
             <h1 className="kuda-section--heading text-xlbold color-primary title-bottom--spacing">
               It’s your money, we just help you manage it.
             </h1>
-            <p className="color-black kuda-section--max font-normal text-sm">
+            <p className="color-black kuda-section--max font-normal">
               Save it, spend it, send it. It’s up to you. Whatever you choose to
               do with your money, we’ll make sure it’s done better and free of
               charge. We take responsibility for that.

@@ -15,7 +15,7 @@ function Section11() {
                   <div className="plan-heading flex">
                     <div className="plan-single"></div>
                     <div className="plan-single">
-                      <h2 className="text-xl font-black mb-[20px] card-main--heading color-primary text-xlbold">
+                      <h2 className=" font-black mb-[20px] card-main--heading color-primary text-xlbold">
                         Other Banks
                       </h2>
                     </div>

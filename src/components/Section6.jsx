@@ -10,7 +10,7 @@ function Section6() {
             <h1 className="kuda-section--heading text-xlbold color-primary title-bottom--spacing">
               Turn off access, turn on safety.
             </h1>
-            <p className="color-black kuda-section--max font-normal text-sm">
+            <p className="color-black kuda-section--max font-normal ">
               Life happens. Milk spills. Debit cards go missing. If that ever
               happens, you can block your missing card on the app so no one can
               use it. We’d like to see them try.

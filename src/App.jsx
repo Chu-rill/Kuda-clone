@@ -10,9 +10,9 @@ import {
 } from "../src/components/ui/navigation-menu";
 import Header from "./components/Header";
 import Section1 from "./components/Section1";
-import "@/style/style.css";
-import "@/style/main.css";
-import "@/style/second.css";
+// import "@/style/style.css";
+// import "@/style/main.css";
+// import "@/style/second.css";
 import "@/style/root.css";
 import Section2 from "./components/Section2";
 import Section3 from "./components/Section3";
