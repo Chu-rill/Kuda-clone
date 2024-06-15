@@ -98,3 +98,48 @@
   position: relative;
   top: 4px;
 }
+.fade-active > *,
+.kuda-preview > div:not(:first-child) > *,
+.kuda-preview > div:not(:nth-child(2)) > * {
+  transition-delay: 0ms !important;
+}
+.kuda-preview > div > * {
+  opacity: 0;
+  transform: translate3d(0, 35px, 0);
+  -webkit-transform: translate3d(0, 35px, 0);
+  -moz-transform: translate3d(0, 35px, 0);
+  -ms-transform: translate3d(0, 35px, 0);
+  -o-transform: translate3d(0, 35px, 0);
+  transition: opacity 0.7s cubic-bezier(0.47, 0, 0.745, 0.715), transform 1.3s;
+  -webkit-transition: opacity 0.7s cubic-bezier(0.47, 0, 0.745, 0.715),
+    transform 1.3s;
+  -moz-transition: opacity 0.7s cubic-bezier(0.47, 0, 0.745, 0.715),
+    transform 1.3s;
+  -ms-transition: opacity 0.7s cubic-bezier(0.47, 0, 0.745, 0.715),
+    transform 1.3s;
+  -o-transition: opacity 0.7s cubic-bezier(0.47, 0, 0.745, 0.715),
+    transform 1.3s;
+}
+.kuda-cta--section {
+  margin-top: -3%;
+}
+.fade-active > * {
+  opacity: 1 !important;
+  transform: translateZ(0) !important;
+  -webkit-transform: translateZ(0) !important;
+  -moz-transform: translateZ(0) !important;
+  -ms-transform: translateZ(0) !important;
+  -o-transform: translateZ(0) !important;
+}
+.kuda-cta--section {
+  background: #eff1ff;
+  border: 1px solid hsla(228, 7%, 87%, 0.5);
+  border-radius: 5px;
+  box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+  overflow: hidden;
+  padding: 60px 88px 76px;
+  position: relative;
+}
+.kuda-cta--section .kuda-main--wrap {
+  max-width: 423px;
+}

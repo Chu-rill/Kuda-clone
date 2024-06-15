@@ -13,6 +13,7 @@ import Section1 from "./components/Section1";
 import "@/style/style.css";
 import "@/style/main.css";
 import "@/style/second.css";
+import "@/style/root.css";
 import Section2 from "./components/Section2";
 import Section3 from "./components/Section3";
 import Section4 from "./components/Section4";
@@ -23,6 +24,7 @@ import Section8 from "./components/Section8";
 import Section9 from "./components/Section9";
 import Section10 from "./components/Section10";
 import Section11 from "./components/Section11";
+import Section12 from "./components/Section12";
 function App() {
   return (
     <>
@@ -39,6 +41,7 @@ function App() {
         <Section9 />
         <Section10 />
         <Section11 />
+        <Section12 />
       </div>
     </>
   );
