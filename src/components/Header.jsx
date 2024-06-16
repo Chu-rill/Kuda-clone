@@ -1,7 +1,16 @@
 import React from "react";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu";
 import { Dropdown } from "react-bootstrap";
 import "@/style/header.css";
-
 function Header() {
   return (
     <div>
@@ -31,7 +40,44 @@ function Header() {
                 </svg>
               </svg>
             </a>
-            <ul className="kuda-menu--wrap flex items-center ml[15%]"></ul>
+            <ul className="kuda-menu--wrap flex items-center ml-[15%]">
+              <div className="navigation-menu">
+                <div className="navigation-menu-trigger">Personal</div>
+                <div className="navigation-menu-content">
+                  <p className="navigation-menu-item">Overview</p>
+                  <p className="navigation-menu-item">Tutorial</p>
+                  <p className="navigation-menu-item">API Reference</p>
+                </div>
+              </div>
+              <div className="navigation-menu">
+                <div className="navigation-menu-trigger">Business</div>
+                <div className="navigation-menu-content">
+                  <p className="navigation-menu-item">Overview</p>
+                  <p className="navigation-menu-item">Tutorial</p>
+                  <p className="navigation-menu-item">API Reference</p>
+                </div>
+              </div>
+              <div className="navigation-menu">
+                <div className="navigation-menu-trigger">Company</div>
+                <div className="navigation-menu-content">
+                  <p className="navigation-menu-item">Blog</p>
+                  <p className="navigation-menu-item">Press</p>
+                  <p className="navigation-menu-item">Join Our Team</p>
+                  <p className="navigation-menu-item">About Us</p>
+                </div>
+              </div>
+              <div className="navigation-menu">
+                <div className="navigation-menu-trigger">Help</div>
+                <div className="navigation-menu-content">
+                  <p className="navigation-menu-item">Get Help</p>
+                  <p className="navigation-menu-item">Scam Awareness</p>
+                  <p className="navigation-menu-item">FAQs</p>
+                  <p className="navigation-menu-item">Security</p>
+                  <p className="navigation-menu-item">Contact Us</p>
+                  <p className="navigation-menu-item">Self Help</p>
+                </div>
+              </div>
+            </ul>
           </div>
           <div className="kuda-header--extras flex items-center">
             <a href="#" className="kuda-nav">
