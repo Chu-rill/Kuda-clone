@@ -311,6 +311,7 @@ function Section12() {
               />
               <img src="/home.png" className="w-[350px] z-50" alt="" />
             </div>
+            {/* <img src="/screen4.png" className="w-[400px] h-[400px]" alt="" /> */}
           </div>
         </div>
       </div>

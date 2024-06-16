@@ -40,6 +40,7 @@ header {
   background: var(--whiteAlt);
   box-shadow: 0 4px 13px rgba(0, 0, 0, 0.05);
   align-items: center;
+  position: fixed;
 }
 .kuda-brand {
   min-width: 100px;
@@ -222,10 +223,10 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 1;
+  z-index: 9999;
   display: none;
 }
 
-.navigation-menu:hover ~ .dim-layer {
+.navigation-menu:hover + .dim-layer {
   display: block;
 }

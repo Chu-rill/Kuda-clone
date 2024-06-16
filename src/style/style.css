@@ -25,6 +25,7 @@
 }
 body {
   overflow-x: hidden;
+  width: 100vw;
 }
 .kuda-preview {
   min-height: calc(100vh - 120px);
@@ -264,15 +265,15 @@ p {
 }
 
 .orbit1 {
-  animation: rotate1 10s linear infinite;
+  animation: rotate1 4s linear infinite;
 }
 
 .orbit2 {
-  animation: rotate2 15s linear infinite;
+  animation: rotate2 7s linear infinite;
 }
 
 .orbit3 {
-  animation: rotate3 20s linear infinite;
+  animation: rotate3 10s linear infinite;
 }
 
 /* .center-content {
@@ -322,4 +323,28 @@ p {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+}
+.kuda-header {
+  background: var(--whiteAlt);
+  box-shadow: 0 4px 13px rgba(0, 0, 0, 0.05);
+  height: 70px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.kuda-header--wrap {
+  display: block;
+  margin: 0 auto;
+  max-width: 1500px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
 }

@@ -14,9 +14,9 @@ import "@/style/header.css";
 function Header() {
   return (
     <div>
-      <header className="bg-white h-[65px] fixed left-0 top-0 z-50 w-full flex">
-        <div className="w-full mr-auto ml-auto max-w-[1500px] pl-[60px] pr-[60px] flex justify-between items-center">
-          <div className="flex items-center">
+      <header className="kuda-header bg-white h-[65px] fixed  top-0 z-50 w-full flex">
+        <div className="kuda-header--wrap w-full mr-auto ml-auto max-w-[1500px] pl-[60px] pr-[60px] flex justify-between items-center">
+          <div className="kuda-header--main  flex items-center">
             <a
               exact="true"
               className="kuda-brand"

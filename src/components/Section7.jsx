@@ -35,7 +35,9 @@ function Section7() {
             </a>
           </div>
         </div>
-        <div className="kuda-section--55 w-[55%]"></div>
+        <div className="kuda-section--55 w-[55%]">
+          <img src="/screen2.png" className="w-[450px] h-[450px]" alt="" />
+        </div>
       </div>
     </div>
   );

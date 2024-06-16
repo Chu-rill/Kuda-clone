@@ -2,7 +2,9 @@ import Header from "./components/Header";
 import Section1 from "./components/Section1";
 import "@/style/style.css";
 import "@/style/main.css";
-
+import "@/style/header.css";
+// import "@/style/responsive.css";
+import "@/style/responsive2.css";
 // import "@/style/second.css";
 // import "@/style/root.css";
 import Section2 from "./components/Section2";
@@ -18,9 +20,10 @@ import Section11 from "./components/Section11";
 import Section12 from "./components/Section12";
 function App() {
   return (
-    <div className="">
+    <>
+      <div className="dim-layer"></div>
       <Header />
-      <div className="kuda-preview md:pt-[48px] md:pr-[40px] md:pb-[60px] md:pl-[40px]">
+      <div className="kuda-preview container md:pt-[48px] md:pr-[40px] md:pb-[60px] md:pl-[40px]">
         <Section1 />
         <Section2 />
         <Section3 />
@@ -34,7 +37,7 @@ function App() {
         <Section11 />
         <Section12 />
       </div>
-    </div>
+    </>
   );
 }
 

@@ -1,0 +1,172 @@
+@media only screen and (max-width: 767px) {
+  .kuda-header {
+    height: 64px;
+  }
+  .kuda-header--wrap,
+  .kuda-preview,
+  footer .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .kuda-header--extras {
+    display: none !important;
+  }
+  .kuda-preview {
+    display: block;
+    padding-top: 50px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .kuda-entry--inner {
+    flex-wrap: wrap;
+  }
+  .kuda-section--42,
+  .kuda-section--50,
+  .kuda-section--58 {
+    width: 100%;
+  }
+  .kuda-entry--inner > div > .kuda-main--wrap {
+    margin-top: 10px;
+  }
+  .kuda-main--wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .kuda-main--wrap {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 360px;
+  }
+  .kuda-entry--fold .kuda-main--wrap *,
+  .kuda-main--wrap * {
+    text-align: center !important;
+  }
+  bottom--spacing {
+    margin-bottom: 10px;
+  }
+  .text-xl {
+    font-size: 2.5rem !important;
+    line-height: 1.33;
+  }
+  .is-mobile-legal .bottom--spacing,
+  .title-bottom--spacing {
+    margin-bottom: 10px;
+  }
+  .business-text-wrap *,
+  .kuda-entry--fold .business-text-wrap *,
+  .kuda-entry--fold .kuda-main--wrap *,
+  .kuda-main--wrap * {
+    text-align: center !important;
+  }
+  .business-text-wrap *,
+  .kuda-entry--fold .business-text-wrap *,
+  .kuda-entry--fold .kuda-main--wrap *,
+  .kuda-main--wrap * {
+    text-align: center !important;
+  }
+  .is-mobile-legal .bottom--spacing,
+  .title-bottom--spacing {
+    margin-bottom: 10px;
+  }
+  .kuda-app--badges,
+  .kuda-app--licenses {
+    justify-content: center;
+  }
+  .kuda-app--badges,
+  .kuda-app--licenses {
+    justify-content: center;
+  }
+  .business-text-wrap *,
+  .kuda-entry--fold .business-text-wrap *,
+  .kuda-entry--fold .kuda-main--wrap *,
+  .kuda-main--wrap * {
+    text-align: center !important;
+  }
+  .kuda-brand svg {
+    display: flex;
+    height: 16px;
+  }
+}
+
+/* .business-text-wrap *,
+  .kuda-entry--fold .business-text-wrap *,
+  .kuda-entry--fold .kuda-main--wrap *,
+  .kuda-main--wrap * {
+    text-align: center !important;
+  }
+  .is-mobile-legal .bottom--spacing,
+  .title-bottom--spacing {
+    margin-bottom: 10px;
+  }
+  .kuda-app--badges,
+  .kuda-app--licenses {
+    justify-content: center;
+  }
+  .kuda-app--badges,
+  .kuda-app--licenses {
+    justify-content: center;
+  } */
+
+@media only screen and (max-width: 991px) {
+  .has-left--margin {
+    margin-left: 100px;
+    margin-right: 17px !important;
+  }
+  .mobile-toggle {
+    align-items: center;
+    display: flex;
+  }
+  .kuda-preview {
+    display: block;
+    padding: 0;
+  }
+  .kuda-section--42,
+  .kuda-section--50,
+  .kuda-section--58 {
+    width: 100%;
+  }
+  .business-text-wrap *,
+  .kuda-main--wrap * {
+    text-align: center;
+  }
+  .kuda-entry--fold .business-text-wrap *,
+  .kuda-entry--fold .kuda-main--wrap * {
+    text-align: left !important;
+  }
+  .business-text-wrap *,
+  .kuda-main--wrap * {
+    text-align: center;
+  }
+  .kuda-entry--fold .business-text-wrap *,
+  .kuda-entry--fold .kuda-main--wrap * {
+    text-align: left !important;
+  }
+  .business-text-wrap *,
+  .kuda-main--wrap * {
+    text-align: center;
+  }
+  .kuda-entry--fold .business-text-wrap *,
+  .kuda-entry--fold .kuda-main--wrap * {
+    text-align: left !important;
+  }
+  .kuda-entry--fold .business-text-wrap *,
+  .kuda-entry--fold .kuda-main--wrap * {
+    text-align: left !important;
+  }
+  .business-text-wrap *,
+  .kuda-main--wrap * {
+    text-align: center;
+  }
+  .kuda-menu--wrap,
+  .kuda-menu--wrap-careers {
+    display: none !important;
+  }
+  .kuda-header--wrap {
+    width: 320px;
+  }
+  .kuda-header {
+    position: fixed;
+    top: 0;
+  }
+}

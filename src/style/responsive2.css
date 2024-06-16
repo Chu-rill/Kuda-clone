@@ -1,0 +1,103 @@
+/* Base Styles */
+.kuda-preview.container {
+  padding: 20px;
+}
+
+/* Styles for screens larger than 991px */
+@media (min-width: 992px) {
+  .kuda-preview.container {
+    padding-top: 48px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+  }
+  .kuda-header--wrap {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+/* Styles for screens between 768px and 991px */
+@media (max-width: 991px) and (min-width: 768px) {
+  .kuda-preview.container {
+    padding-top: 24px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+  }
+  .kuda-preview .section {
+    padding: 10px;
+  }
+  .kuda-header--wrap {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .kuda-menu--wrap {
+    margin-left: 10%;
+  }
+
+  .navigation-menu-content {
+    width: 200px;
+  }
+
+  .navigation-menu-item {
+    padding: 8px 15px;
+  }
+}
+
+/* Styles for screens 767px and smaller */
+@media (max-width: 767px) {
+  .kuda-preview.container {
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+  }
+  .kuda-preview .section {
+    padding: 5px;
+  }
+  .kuda-header {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .kuda-header--wrap {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .kuda-brand svg {
+    width: 80px;
+    height: 18px;
+  }
+
+  .kuda-menu--wrap {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .navigation-menu-trigger {
+    padding: 10px 0;
+  }
+
+  .navigation-menu-content {
+    width: 100%;
+    position: relative;
+    box-shadow: none;
+  }
+
+  .navigation-menu-item {
+    padding: 8px 10px;
+  }
+
+  .kuda-header--extras {
+    margin-top: 10px;
+  }
+
+  .kuda-nav,
+  .kuda-web {
+    margin-right: 10px;
+  }
+}

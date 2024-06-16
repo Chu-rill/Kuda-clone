@@ -13,6 +13,11 @@ function Section6() {
               alt=""
             />
             <img
+              src="/screen6.png"
+              className="w-[100px] h-[50px] absolute left-[270px] top-[50px]"
+              alt=""
+            />
+            <img
               src="/sec6/img3.png"
               className=" absolute top-[110px] left-[38px] w-[290px] h-[370px]"
               alt=""
