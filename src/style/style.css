@@ -211,7 +211,11 @@ p {
   border: 1px solid hsla(228, 7%, 87%, 0.5);
   border-radius: 5px;
   box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+  height: 400px;
   overflow: hidden;
   padding: 60px 88px 76px;
   position: relative;
+}
+.kuda-main--wrap {
+  max-width: 423px;
 }

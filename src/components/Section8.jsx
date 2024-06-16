@@ -3,8 +3,8 @@ import React from "react";
 function Section8() {
   return (
     <div className="kuda-section fade-active mt-[12.5%]">
-      <div className="kuda-section--inner flex justify-between align-center mobile-reverse">
-        <div></div>
+      <div className="kuda-section--inner flex justify-between items-center mobile-reverse">
+        <div className="kuda-section--55 w-[55%]"></div>
         <div className="kuda-section--45 kuda-text--right w-[45%]">
           <div className="kuda-section--wrap">
             <h1 className="kuda-section--heading text-xlbold color-primary title-bottom--spacing">
