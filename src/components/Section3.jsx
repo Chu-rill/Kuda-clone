@@ -3,7 +3,7 @@ import React from "react";
 function Section3() {
   return (
     <div className="kuda-section kuda-below--animation fade-active mt-[12.5%]">
-      <div className="kuda-section--inner flex justify-between align-center">
+      <div className="kuda-section--inner flex justify-around align-center">
         <div className="kuda-section--45 w-[45%]">
           <div className="kuda-section--wrap max-w-[420px]">
             <h1 className="kuda-section--heading text-xlbold color-primary title-bottom--spacing">
@@ -211,6 +211,37 @@ function Section3() {
             </div>
           </div>
         </div> */}
+        <div>
+          <div className=" relative">
+            <img
+              src="/section3/card6.png"
+              className="w-[300px] h-[299px]"
+              alt=""
+            />
+            <img
+              src="/section3/card5.png"
+              className="w-[380px] h-[250px] absolute left-[-20px] top-[55px]"
+              alt=""
+            />
+            <img
+              src="/section3/card4.png"
+              className="w-[220px] h-[229px] absolute top-[-5px] left-[-40px]"
+              alt=""
+            />
+            <div className=" absolute top-[210px] left-[180px] ">
+              <img
+                src="/section3/card2.png"
+                className="w-[100px] h-[99px] "
+                alt=""
+              />
+              <img
+                src="/section3/card1.png"
+                className="w-[60px] h-[90px] absolute top-[30px] left-[15px]"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
