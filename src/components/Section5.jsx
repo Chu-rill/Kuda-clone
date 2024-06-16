@@ -32,7 +32,7 @@ function Section5() {
             </a>
           </div>
         </div>
-        <div></div>
+        <div className="kuda-section--55 w-[55%]"></div>
       </div>
     </div>
   );

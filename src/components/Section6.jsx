@@ -3,8 +3,27 @@ import React from "react";
 function Section6() {
   return (
     <div className="kuda-section fade-active mt-[12.5%]">
-      <div className="kuda-section--inner flex justify-between align-center mobile-reverse">
-        <div></div>
+      <div className="kuda-section--inner flex justify-between items-center mobile-reverse">
+        <div className="kuda-section--45 w-[55%]">
+          <div className=" relative">
+            <img src="/sec6/img4.png" className=" w-[400px] h-[399px]" alt="" />
+            <img
+              src="/sec6/img1.png"
+              className=" absolute top-[10px] w-[400px] h-[130px]"
+              alt=""
+            />
+            <img
+              src="/sec6/img3.png"
+              className=" absolute top-[110px] left-[38px] w-[290px] h-[370px]"
+              alt=""
+            />
+            <img
+              src="/sec6/img2.png"
+              className="w-[120px] h-[100px] absolute top-[210px] left-[270px]"
+              alt=""
+            />
+          </div>
+        </div>
         <div className="kuda-section--45 kuda-text--right w-[45%]">
           <div className="kuda-section--wrap">
             <h1 className="kuda-section--heading text-xlbold color-primary title-bottom--spacing">
