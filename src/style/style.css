@@ -219,3 +219,107 @@ p {
 .kuda-main--wrap {
   max-width: 423px;
 }
+@keyframes rotate1 {
+  from {
+    transform: rotate(0deg) translateX(275px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(275px) rotate(360deg);
+  }
+}
+
+@keyframes rotate2 {
+  from {
+    transform: rotate(0deg) translateX(225px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(225px) rotate(360deg);
+  }
+}
+
+@keyframes rotate3 {
+  from {
+    transform: rotate(0deg) translateX(175px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(175px) rotate(360deg);
+  }
+}
+
+.center-container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+}
+
+.orbit1 {
+  animation: rotate1 10s linear infinite;
+}
+
+.orbit2 {
+  animation: rotate2 15s linear infinite;
+}
+
+.orbit3 {
+  animation: rotate3 20s linear infinite;
+}
+
+/* .center-content {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-content img {
+  width: 100%;
+  height: auto;
+} */
+
+.orbit-container {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  border: 2px solid rgb(240, 237, 237);
+  border-radius: 50%;
+  display: flex;
+  z-index: -50;
+  justify-content: center;
+  align-items: center;
+}
+
+.orbit-container1 {
+  width: 550px;
+  height: 550px;
+}
+
+.orbit-container2 {
+  width: 450px;
+  height: 450px;
+}
+
+.orbit-container3 {
+  width: 350px;
+  height: 350px;
+}
+
+.svg-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
