@@ -2,9 +2,9 @@ import React from "react";
 
 function Section12() {
   return (
-    <div className="kuda-section fade-active mt-[12.5%]">
+    <div className="kuda-section fade-active ">
       <div className="kuda-entry--inner kuda-cta--section flex justify-between align-center">
-        <div className="kuda-section--50 w-[50%]">
+        <div className="kuda-section--50 ">
           <div className="kuda-main--wrap">
             <h1 className="kuda-section--heading text-xlbold color-primary title-bottom--spacing">
               The money app for Africans.
@@ -12,7 +12,7 @@ function Section12() {
             <p className="color-black bottom--spacing text-[1rem] font-normal">
               Save, spend, send and invest money across borders.
             </p>
-            <div className="kuda-app--badges flex align-center mobile-only bottom--spacing">
+            <div className="kuda-app--badges flex items-center mobile-only bottom--spacing">
               <a
                 href="https://kuda.onelink.me/abUI/344e3dde/"
                 target="_blank"

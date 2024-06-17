@@ -8,7 +8,7 @@ function Section10() {
           <h1 className="kuda-section--heading text-center text-xlbold color-primary title-bottom--spacing">
             Our Partners
           </h1>
-          <div className="kuda-publication--wrap flex">
+          <div className="kuda-pub ">
             <div className="partners-image">
               <img
                 src="/part1.svg"

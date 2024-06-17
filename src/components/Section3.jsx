@@ -42,7 +42,7 @@ function Section3() {
           </div>
         </div>
         <div className="kuda-section--55 w-[55%]">
-          <div className=" relative ml-20">
+          {/* <div className=" relative ml-20">
             <img
               src="/section3/card6.png"
               className="w-[350px] h-[349px]"
@@ -70,7 +70,8 @@ function Section3() {
                 alt=""
               />
             </div>
-          </div>
+          </div> */}
+          <img src="/screen8.png" className="w-[450px] h-[450px] icon" alt="" />
         </div>
       </div>
     </div>

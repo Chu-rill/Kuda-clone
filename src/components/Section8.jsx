@@ -5,7 +5,7 @@ function Section8() {
     <div className="kuda-section fade-active mt-[12.5%]">
       <div className="kuda-section--inner flex justify-between items-center mobile-reverse">
         <div className="kuda-section--55 w-[55%]">
-          <img src="/screen3.png" className="w-[450px] h-[450px]" alt="" />
+          <img src="/screen3.png" className="w-[450px] h-[450px] icon" alt="" />
         </div>
         <div className="kuda-section--45 kuda-text--right ">
           <div className="kuda-section--wrap">

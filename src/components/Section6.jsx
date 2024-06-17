@@ -5,7 +5,7 @@ function Section6() {
     <div className="kuda-section fade-active mt-[12.5%]">
       <div className="kuda-section--inner flex justify-between items-center mobile-reverse">
         <div className="kuda-section--45 ">
-          <div className=" relative">
+          {/* <div className=" relative">
             <img src="/sec6/img4.png" className=" w-[400px] h-[399px]" alt="" />
             <img
               src="/sec6/img1.png"
@@ -27,7 +27,8 @@ function Section6() {
               className="w-[120px] h-[100px] absolute top-[210px] left-[270px]"
               alt=""
             />
-          </div>
+          </div> */}
+          <img src="/screen5.png" className="w-[450px] h-[450px] icon" alt="" />
         </div>
         <div className="kuda-section--45 kuda-text--right ">
           <div className="kuda-section--wrap">

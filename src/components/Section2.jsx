@@ -4,8 +4,8 @@ function Section2() {
   return (
     <div className="mt-[50px] kuda-below--fold color-primary fade-active">
       <div className="kuda-below--inner">
-        <div className="kuda-summary--cards flex summary-top justify-between kuda-section--inner flex-wrap">
-          <div className="card card-item">
+        <div className="kuda-summary--cards summary-top  kuda-section--inner ">
+          <div className=" card-item">
             <div className="card-icon--spacing mb-[15px]">
               <svg width="37" height="38" viewBox="0 0 37 38" fill="none">
                 <circle cx="18.5" cy="18.7012" r="18.5" fill="#DFE3FF"></circle>
@@ -26,7 +26,7 @@ function Section2() {
               options.
             </p>
           </div>
-          <div className="card card-item">
+          <div className=" card-item">
             <div className="card-icon--spacing mb-[15px]">
               <svg width="37" height="38" viewBox="0 0 37 38" fill="none">
                 <circle cx="18.5" cy="18.7012" r="18.5" fill="#DFE3FF"></circle>
@@ -57,7 +57,7 @@ function Section2() {
               Enjoy cashless payment options online and offline.
             </p>
           </div>
-          <div className="card card-item">
+          <div className=" card-item">
             <div className="card-icon--spacing mb-[15px]">
               <svg width="37" height="38" viewBox="0 0 37 38" fill="none">
                 <circle cx="18.5" cy="18.7012" r="18.5" fill="#DFE3FF"></circle>
@@ -76,8 +76,8 @@ function Section2() {
             </p>
           </div>
         </div>
-        <div className="kuda-summary--cards flex summary-bottom justify-center">
-          <div className="card card-item">
+        <div className="kuda-summary--cards  summary-bottom ">
+          <div className=" card-item">
             <div className="card-icon--spacing mb-[15px]">
               <svg width="37" height="38" viewBox="0 0 37 38" fill="none">
                 <circle cx="18.5" cy="18.7012" r="18.5" fill="#DFE3FF"></circle>
@@ -95,7 +95,7 @@ function Section2() {
               Get 25 free transfers to Nigerian banks every month.
             </p>
           </div>
-          <div className="card card-item">
+          <div className="card-item">
             <div className="card-icon--spacing mb-[15px]">
               <svg width="37" height="38" viewBox="0 0 37 38" fill="none">
                 <circle cx="18.5" cy="18.7012" r="18.5" fill="#DFE3FF"></circle>
