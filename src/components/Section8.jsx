@@ -7,7 +7,7 @@ function Section8() {
         <div className="kuda-section--55 w-[55%]">
           <img src="/screen3.png" className="w-[450px] h-[450px]" alt="" />
         </div>
-        <div className="kuda-section--45 kuda-text--right w-[45%]">
+        <div className="kuda-section--45 kuda-text--right ">
           <div className="kuda-section--wrap">
             <h1 className="kuda-section--heading text-xlbold color-primary title-bottom--spacing">
               {" "}

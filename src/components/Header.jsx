@@ -10,7 +10,8 @@ import {
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 import { Dropdown } from "react-bootstrap";
-import "@/style/header.css";
+// import "@/style/header.css";
+import "@/style/header2.css";
 function Header() {
   return (
     <div>

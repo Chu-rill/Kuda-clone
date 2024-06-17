@@ -4,7 +4,7 @@ function Section7() {
   return (
     <div className="kuda-section kuda-below--animation fade-active mt-[12.5%]">
       <div className="kuda-section--inner flex justify-between items-center">
-        <div className="kuda-section--45 w-[45%]">
+        <div className="kuda-section--45 ">
           <div className="kuda-section--wrap max-w-[420px]">
             <h1 className="kuda-section--heading text-xlbold color-primary title-bottom--spacing">
               We’re always happy to help you.

@@ -175,3 +175,52 @@ p {
   width: auto;
   height: auto;
 }
+/* Mobile devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* Tablets (min-width: 481px and max-width: 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* Desktops (min-width: 769px) */
+@media only screen and (min-width: 769px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+/* Additional styles for specific elements */
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  clear: both;
+}
