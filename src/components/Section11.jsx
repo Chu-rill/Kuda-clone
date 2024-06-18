@@ -125,7 +125,7 @@ function Section11() {
                           </svg>
                         </span>
                         <span className="feature-text height-full">
-                          <svg
+                          {/* <svg
                             width="20"
                             height="21"
                             viewBox="0 0 20 21"
@@ -156,7 +156,12 @@ function Section11() {
                                 ></image>
                               </pattern>
                             </defs>
-                          </svg>
+                          </svg> */}
+                          <img
+                            src="/huh.png"
+                            className="w-[20px] h-[20px]"
+                            alt=""
+                          />
                         </span>
                       </p>
                     </div>
@@ -421,7 +426,7 @@ function Section11() {
                           </svg>
                         </span>
                         <span className="feature-text height-full">
-                          <svg
+                          {/* <svg
                             width="20"
                             height="21"
                             viewBox="0 0 20 21"
@@ -452,7 +457,12 @@ function Section11() {
                                 xlink:href="/huh2.png"
                               ></image>
                             </defs>
-                          </svg>
+                          </svg> */}
+                          <img
+                            src="/huh2.png"
+                            className="w-[20px] h-[20px]"
+                            alt=""
+                          />
                         </span>
                       </p>
                     </div>

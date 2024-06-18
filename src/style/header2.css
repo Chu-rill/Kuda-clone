@@ -5,6 +5,7 @@ header {
   background: var(--whiteAlt);
   box-shadow: 0 4px 13px rgba(0, 0, 0, 0.05);
   align-items: center;
+  display: flex;
   position: fixed;
   width: 100%;
   height: 60px; /* adjust header height */
@@ -75,38 +76,100 @@ ul {
   padding-inline-start: 40px;
   unicode-bidi: isolate;
 }
+.dropDown {
+  margin-left: 7px;
+  cursor: pointer;
+}
 .has-left--margin {
   height: 42px;
   margin-left: 28px;
   margin-right: 0 !important;
 }
+.mobile-toggle {
+  display: none;
+  height: 20px;
+  width: 23px;
+}
+.kuda-hamburger {
+  display: inline-block;
+  height: auto;
+  position: relative;
+  top: 3px;
+  width: 23px;
+}
+.kuda-hamburger .kuda-hamburger--inner {
+  transition-duration: 75ms;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.kuda-hamburger .kuda-hamburger--inner:before {
+  top: -9px;
+  transition: top 75ms ease 0.12s, opacity 75ms ease;
+}
+.kuda-hamburger .kuda-hamburger--inner:after,
+.kuda-hamburger .kuda-hamburger--inner:before {
+  background-color: var(--primaryAlt);
+  border-radius: 4px;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  transition-duration: 0.15s;
+  transition-property: transform;
+  transition-timing-function: ease;
+  width: 20px;
+}
+.kuda-hamburger .kuda-hamburger--inner:after,
+.kuda-hamburger .kuda-hamburger--inner:before {
+  background-color: var(--primaryAlt);
+  border-radius: 4px;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  transition-duration: 0.15s;
+  transition-property: transform;
+  transition-timing-function: ease;
+  width: 20px;
+}
 /* Tablet layout (max-width: 768px) */
 @media only screen and (max-width: 768px) {
-  header {
-    height: 50px; /* adjust header height */
+  .kuda-header {
+    height: 64px;
   }
-
-  .kuda-brand {
-    min-width: 80px;
+  .kuda-header--wrap,
+  .kuda-preview,
+  footer .container {
+    padding-left: 20px;
+    padding-right: 20px;
   }
-
-  .kuda-nav {
-    font-size: 0.75rem;
+  .kuda-brand svg {
+    display: flex;
+    height: 16px;
   }
-
-  .kuda-web {
-    height: 36px;
-    margin-left: 20px;
-    max-width: 100px;
-    min-width: 100px;
-    font-size: 11px;
+  .kuda-menu--wrap,
+  .kuda-menu--wrap-careers {
+    display: none !important;
+  }
+  .kuda-header--extras {
+    display: none !important;
   }
 }
-
+@media only screen and (max-width: 991px) {
+  .has-left--margin {
+    margin-left: auto;
+    margin-right: 17px !important;
+  }
+  .mobile-toggle {
+    align-items: center;
+    display: flex;
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+}
 /* Mobile layout (max-width: 480px) */
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
   header {
-    height: 40px; /* adjust header height */
+    height: 40px; 
   }
 
   .kuda-brand {
@@ -124,9 +187,8 @@ ul {
     min-width: 80px;
     font-size: 9px;
   }
-}
+} */
 
-/* Navigation menu styles */
 .navigation-menu {
   position: relative;
   display: inline-block;
@@ -157,7 +219,7 @@ ul {
   position: absolute;
   background-color: white;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 2;
+  z-index: 200;
   min-width: 160px;
 }
 
@@ -182,7 +244,7 @@ ul {
 .navigation-menu:hover .navigation-menu-content {
   display: block;
 }
-
+/* ,.navigation-menu:hover .dim-layer.active  */
 .dim-layer {
   position: fixed;
   top: 0;
@@ -190,10 +252,17 @@ ul {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 9999;
+  z-index: 2;
   display: none;
 }
-
-.navigation-menu:hover + .dim-layer {
+/* .navigation-menu:hover ~ .dim-layer {
   display: block;
+} */
+.dim-layer.active {
+  display: block; /* show the overlay when active */
+}
+.navigation-menu:hover .personal {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
 }

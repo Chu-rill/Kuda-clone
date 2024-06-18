@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -13,9 +13,24 @@ import { Dropdown } from "react-bootstrap";
 // import "@/style/header.css";
 import "@/style/header2.css";
 function Header() {
+  const [overlayActive, setOverlayActive] = useState(false);
+
+  const handleMouseEnter = () => {
+    setOverlayActive(true);
+  };
+
+  const handleMouseLeave = () => {
+    setOverlayActive(false);
+  };
+
+  const handleHamburgerClick = () => {
+    // Toggle the mobile menu wrapper
+    document.querySelector(".mobile-menu-wrap").classList.add("active");
+  };
+
   return (
     <div>
-      <header className="kuda-header bg-white h-[65px] fixed  top-0 z-50 w-full flex">
+      <header className="kuda-header bg-white h-[65px] fixed  top-0 z-50 w-full ">
         <div className="kuda-header--wrap w-full mr-auto ml-auto max-w-[1500px] pl-[60px] pr-[60px] flex justify-between items-center">
           <div className="kuda-header--main  flex items-center">
             <a
@@ -42,23 +57,73 @@ function Header() {
               </svg>
             </a>
             <ul className="kuda-menu--wrap flex items-center ml-[15%]">
-              <div className="navigation-menu">
+              <div
+                className="navigation-menu"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
                 <div className="navigation-menu-trigger">Personal</div>
-                <div className="navigation-menu-content">
-                  <p className="navigation-menu-item">Overview</p>
-                  <p className="navigation-menu-item">Tutorial</p>
-                  <p className="navigation-menu-item">API Reference</p>
+                <div className="navigation-menu-content personal">
+                  <div className="cont-left">
+                    <p className="navigation-menu-item">Discover Personal</p>
+                    <p className="navigation-menu-item">Transfer & Speed</p>
+                    <p className="navigation-menu-item">Save</p>
+                    <p className="navigation-menu-item">Investment</p>
+                    <p className="navigation-menu-item">Kuda Card</p>
+                  </div>
+                  <div className="cont-right">
+                    <p className=" font-bold">PAYMENT</p>
+                    <p className="navigation-menu-item">Electricity</p>
+                    <p className="navigation-menu-item">Airtime</p>
+                    <p className="navigation-menu-item">Internet</p>
+                    <p className="navigation-menu-item">Gift Cards</p>
+                    <p className="navigation-menu-item">Cardless Payment</p>
+                    <p className="navigation-menu-item">TV</p>
+                    <p className="navigation-menu-item">Betting</p>
+                    <p className="navigation-menu-item">Transport</p>
+                    <p className=" font-bold">CREDIT</p>
+                    <p className="navigation-menu-item">Overdrafts</p>
+                    <p className="navigation-menu-item">Salary Loan</p>
+                    <p className="navigation-menu-item">Loans</p>
+                  </div>
                 </div>
               </div>
-              <div className="navigation-menu">
+              <div
+                className="navigation-menu"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
                 <div className="navigation-menu-trigger">Business</div>
-                <div className="navigation-menu-content">
-                  <p className="navigation-menu-item">Overview</p>
-                  <p className="navigation-menu-item">Tutorial</p>
-                  <p className="navigation-menu-item">API Reference</p>
+                <div className="navigation-menu-content business">
+                  <div className="cont-left">
+                    <p className="navigation-menu-item">Discover Personal</p>
+                    <p className="navigation-menu-item">Transfer & Speed</p>
+                    <p className="navigation-menu-item">Save</p>
+                    <p className="navigation-menu-item">Investment</p>
+                    <p className="navigation-menu-item">Kuda Card</p>
+                  </div>
+                  <div className="cont-right">
+                    <p className=" font-bold">PAYMENT</p>
+                    <p className="navigation-menu-item">Electricity</p>
+                    <p className="navigation-menu-item">Airtime</p>
+                    <p className="navigation-menu-item">Internet</p>
+                    <p className="navigation-menu-item">Gift Cards</p>
+                    <p className="navigation-menu-item">Cardless Payment</p>
+                    <p className="navigation-menu-item">TV</p>
+                    <p className="navigation-menu-item">Betting</p>
+                    <p className="navigation-menu-item">Transport</p>
+                    <p className=" font-bold">CREDIT</p>
+                    <p className="navigation-menu-item">Overdrafts</p>
+                    <p className="navigation-menu-item">Salary Loan</p>
+                    <p className="navigation-menu-item">Loans</p>
+                  </div>
                 </div>
               </div>
-              <div className="navigation-menu">
+              <div
+                className="navigation-menu"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
                 <div className="navigation-menu-trigger">Company</div>
                 <div className="navigation-menu-content">
                   <p className="navigation-menu-item">Blog</p>
@@ -67,7 +132,11 @@ function Header() {
                   <p className="navigation-menu-item">About Us</p>
                 </div>
               </div>
-              <div className="navigation-menu">
+              <div
+                className="navigation-menu"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
                 <div className="navigation-menu-trigger">Help</div>
                 <div className="navigation-menu-content">
                   <p className="navigation-menu-item">Get Help</p>
@@ -147,8 +216,17 @@ function Header() {
               </div>
             </div>
           </div>
+          <div className="mobile-toggle">
+            <div className="kuda-hamburger">
+              <div
+                className="kuda-hamburger--inner"
+                onClick={handleHamburgerClick}
+              ></div>
+            </div>
+          </div>
         </div>
       </header>
+      <div className={`dim-layer ${overlayActive ? "active" : ""}`}></div>
     </div>
   );
 }

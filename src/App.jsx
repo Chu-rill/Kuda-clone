@@ -20,6 +20,8 @@ import Section9 from "./components/Section9";
 import Section10 from "./components/Section10";
 import Section11 from "./components/Section11";
 import Section12 from "./components/Section12";
+import Kuda from "./components/Kuda";
+import Menu from "./components/Menu";
 function App() {
   return (
     <>
@@ -39,6 +41,8 @@ function App() {
         <Section11 />
         <Section12 />
       </div>
+      <Kuda />
+      <Menu />
     </>
   );
 }

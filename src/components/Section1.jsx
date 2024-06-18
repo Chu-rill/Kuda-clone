@@ -351,7 +351,7 @@ function Section1() {
               </div>
             </div>
           </div>
-          <div className="right relative">
+          <div className="right relative kuda-section--58">
             <div className="kuda-illustration--center hasAnimation">
               <div className="center-container">
                 <div className="orbit-container orbit-container1">

@@ -138,7 +138,7 @@ p {
   border-radius: 5px;
 }
 
-.summary-bottom.card:not(:last-child) {
+.summary-bottom .card-item:not(:last-child) {
   margin-right: 20px;
 }
 
@@ -238,6 +238,13 @@ p {
 .kuda-section--42 {
   width: 42%;
 }
+.kuda-section--58 {
+  width: 58%;
+}
+.hasAnimation {
+  margin-top: -12px;
+  /* position: relative; */
+}
 .kuda-section--45 {
   width: 45%;
 }
@@ -277,6 +284,179 @@ p {
 .kuda-section {
   margin-top: 12.5%;
 }
+.kuda-mobile--get {
+  align-items: center;
+  background-color: #eff1ff;
+  bottom: 0;
+  display: none;
+  height: 80px;
+  justify-content: space-between;
+  left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: 9;
+}
+.kuda-app--badge {
+  display: flex;
+}
+.kuda-app--badge svg {
+  border-radius: 11px;
+  box-shadow: 0 4px 5px rgba(64, 25, 109, 0.3);
+}
+.kuda-app--stars {
+  margin-left: 16px;
+}
+.kuda-app--name {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+.kuda-star--wrap {
+  display: flex;
+  margin-top: 6px;
+}
+.kuda-mobile--get .kuda-cta {
+  font-size: 13px;
+  height: 40px;
+}
+.Kuda-ratings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.mobile-container .kuda-footer--nav {
+  width: 100%;
+}
+.kuda-mobile--menu {
+  position: relative;
+}
+.mobile-menu-wrapper {
+  display: none;
+}
+
+.mobile-menu-wrapper.active {
+  display: block;
+}
+.kuda-mobile--navWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-100%);
+  transition: 0.3s;
+}
+.kuda-mobile--navWrap.open {
+  transform: translateX(0);
+}
+.closeMenu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+.closeMenu:hover {
+  color: #666;
+}
+
+/* .kuda-mobile--brand {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  height: 64px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+.kuda-mobile--navWrap {
+  animation: slide-in-out 0.6s cubic-bezier(0.455, 0.03, 0, 1) forwards;
+  background-color: #fff;
+  opacity: 0;
+  overflow-y: scroll;
+  padding: 0 0 20px 20px;
+  position: absolute;
+  top: 108px;
+  width: 100%;
+}
+.kuda-brand {
+  min-width: 100px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.closeMenu {
+  animation-delay: 0.35s;
+  animation-duration: 0.8s !important;
+  position: absolute;
+  right: 25px;
+  top: 24px;
+  z-index: 1;
+}
+.animated {
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+  position: relative;
+}
+
+.fadeIn {
+  animation-duration: 0.3s !important;
+  animation-name: fadeIn;
+}
+.kuda-menu--actions {
+  animation: slide-in-out 0.6s cubic-bezier(0.455, 0.03, 0, 1) forwards;
+  background-color: #fff;
+  opacity: 0;
+  padding: 20px;
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  z-index: 9;
+}
+.kuda-mobile--menu-item:not(:last-child) {
+  border-bottom: 1px solid hsla(228, 7%, 87%, 0.5);
+}
+.kuda-mobile--menu-item {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.kuda-mobile--menu-item:not(:last-child) {
+  border-bottom: 1px solid hsla(228, 7%, 87%, 0.5);
+}
+.kuda-mobile--menu-item {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.kuda-menu--wrap,
+.kuda-menu--wrap-careers {
+  display: none !important;
+}
+.mobile-container .kuda-footer--nav {
+  width: 100%;
+} */
 /* Media Queries */
 
 /* Large screens */
@@ -300,6 +480,12 @@ p {
   .plan-full .plan-single {
     width: 25%;
   }
+  .check-icon {
+    margin-right: 10px;
+  }
+  /* .feature-summary {
+    align-items: center;
+  } */
 }
 
 /* Medium screens */
@@ -326,7 +512,7 @@ p {
 }
 
 /* Small screens */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
   .kuda-preview {
     margin-left: 60px;
     margin-right: 60px;
@@ -346,15 +532,63 @@ p {
   .plan-full .plan-single {
     width: 50%;
   }
+  /* .kuda-mobile--menu {
+    background: rgba(64, 25, 109, 0.2);
+    background-color: #fff;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow-y: scroll;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+  }
+  .kuda-mobile--menu .kuda-menu--wrap {
+    align-items: flex-start !important;
+    background: #fff;
+    display: flex !important;
+    flex-direction: column;
+    height: 100vh;
+    margin-left: auto;
+    width: 100%;
+  }
+  .kuda-menu--wrap,
+  .kuda-menu--wrap-careers {
+    display: none !important;
+  }
+  .kuda-menu--actions {
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 550px;
+    transform: translateX(-50%);
+  }
+  .kuda-cta-md {
+    max-width: 115px;
+  }
+  .nav-menu-wrap {
+    margin-top: 25px;
+  } */
+  .kuda-mobile--navWrap {
+    width: 300px;
+    height: auto;
+    padding: 40px;
+    transform: translateX(-300px);
+  }
+  .kuda-mobile--navWrap.open {
+    transform: translateX(0);
+  }
 }
 
 /* Extra small screens */
 @media only screen and (max-width: 767px) {
   .kuda-preview {
-    margin-left: 15px;
+    margin-left: 25px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 15px;
+    margin-right: 25px;
   }
   .left {
     max-width: 280px;
@@ -555,7 +789,35 @@ p {
   .kuda-entry--inner {
     flex-wrap: wrap;
   }
-
+  .kuda-section--58 {
+    width: 100%;
+  }
+  .center-container {
+    /* margin: 0; */
+    width: 100%;
+  }
+  .hasAnimation {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 340px;
+  }
+  .kuda-illustration--center {
+    display: block;
+    margin-top: 30px;
+  }
+  .kuda-mobile--get {
+    display: flex !important;
+  }
+  .kuda-a {
+    text-decoration: none;
+  }
+  .kuda-footer--nav {
+    flex-wrap: wrap;
+  }
+  .footer-contact--information,
+  .kuda-footer--nav {
+    flex-wrap: wrap;
+  }
   /* .icon {
     width: 400px;
     height: 400px;
