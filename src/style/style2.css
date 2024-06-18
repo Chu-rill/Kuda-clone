@@ -25,7 +25,9 @@
   --overlay: rgba(64, 25, 109, 0.2);
   --successColorTrans: #dcffec;
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
 body {
   overflow-x: hidden;
   width: 100vw;
@@ -295,8 +297,9 @@ p {
   padding-left: 20px;
   padding-right: 20px;
   position: fixed;
+  bottom: 0;
   right: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 9;
 }
 .kuda-app--badge {
@@ -794,7 +797,8 @@ a {
   }
   .center-container {
     /* margin: 0; */
-    width: 100%;
+    /* width: 100%; */
+    margin-left: -100px;
   }
   .hasAnimation {
     margin-left: auto;
@@ -807,6 +811,9 @@ a {
   }
   .kuda-mobile--get {
     display: flex !important;
+    position: fixed;
+    left: 0;
+    bottom: 0;
   }
   .kuda-a {
     text-decoration: none;
@@ -853,12 +860,23 @@ a {
   position: relative;
   width: 600px;
   height: 600px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.debit {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 300px;
+  left: 130px;
+  z-index: -10;
+}
+.home {
+  width: 350px;
+  z-index: 999;
+}
 .orbit {
   position: absolute;
   top: 50%;
@@ -917,16 +935,20 @@ a {
   height: 70px;
   left: 0;
   position: fixed;
+  display: flex;
   top: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 99;
 }
 .kuda-header--wrap {
-  display: block;
-  margin: 0 auto;
-  max-width: 1500px;
+  width: 100vw;
+  margin-right: auto;
+  margin-left: auto;
   padding-left: 60px;
   padding-right: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .container {
   margin-left: auto;
@@ -937,7 +959,7 @@ a {
 }
 
 /* Responsive styles for orbit animation */
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
   .orbit-container {
     width: 450px;
     height: 450px;
@@ -1011,4 +1033,4 @@ a {
     width: 50px;
     height: 50px;
   }
-}
+} */

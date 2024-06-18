@@ -25,7 +25,6 @@ import Menu from "./components/Menu";
 function App() {
   return (
     <>
-      <div className="dim-layer"></div>
       <Header />
       <div className="kuda-preview  ">
         <Section1 />
@@ -42,7 +41,7 @@ function App() {
         <Section12 />
       </div>
       <Kuda />
-      <Menu />
+      {/* <Menu /> */}
     </>
   );
 }

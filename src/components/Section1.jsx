@@ -454,16 +454,8 @@ function Section1() {
                 </div>
 
                 <div className="center-content">
-                  <img
-                    src="/debit.png"
-                    className="w-[180px] h-[180px] absolute top-[300px] left-[120px] -z-10"
-                    alt="Home"
-                  />
-                  <img
-                    src="/home.png"
-                    className="w-[350px] z-[999]"
-                    alt="Debit"
-                  />
+                  <img src="/debit.png" className="debit" alt="Home" />
+                  <img src="/home.png" className="home" alt="Debit" />
                 </div>
               </div>
             </div>
