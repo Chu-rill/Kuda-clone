@@ -66,8 +66,8 @@ function Menu() {
                 </span>
               </Link>
             </div>
-            <div className="kuda-mobile--navWrap show-options">
-              <div className="kuda-menu--actions flex">
+            <div className="kuda-mobile--navWrap show-options ">
+              <div className="kuda-menu--actions  flex">
                 <a
                   class="kuda-mobile--action kuda-cta kuda-cta-md mr-3 kuda_web"
                   href="/joinKuda/"
@@ -83,11 +83,13 @@ function Menu() {
                 </a>
               </div>
               <div className="flex flex-column">
-                <div className="nav-menu-wrap flex flex-column">
+                <div className="nav-menu-wrap flex flex-column bob">
                   <div className="kuda-mobile--menu-item">
-                    <p className="footer-header text-bold  color-primary">
-                      Personal
-                    </p>
+                    <Link to="/personal">
+                      <p className="footer-header text-bold  color-primary">
+                        Personal
+                      </p>
+                    </Link>
                     <svg width="16" height="17" viewBox="0 0 16 17" fill="none">
                       <path
                         d="M11 8.50004L6.5 3.88124L6.5 13.1188L11 8.50004Z"
@@ -96,9 +98,11 @@ function Menu() {
                     </svg>
                   </div>
                   <div className="kuda-mobile--menu-item">
-                    <p className="footer-header text-bold  color-primary">
-                      Business
-                    </p>
+                    <Link to="/business">
+                      <p className="footer-header text-bold  color-primary">
+                        Business
+                      </p>
+                    </Link>
                     <svg width="16" height="17" viewBox="0 0 16 17" fill="none">
                       <path
                         d="M11 8.50004L6.5 3.88124L6.5 13.1188L11 8.50004Z"
@@ -107,9 +111,11 @@ function Menu() {
                     </svg>
                   </div>
                   <div className="kuda-mobile--menu-item">
-                    <p class="footer-header text-bold  color-primary">
-                      Company
-                    </p>
+                    <Link to="/company">
+                      <p class="footer-header text-bold  color-primary">
+                        Company
+                      </p>
+                    </Link>
                     <svg width="16" height="17" viewBox="0 0 16 17" fill="none">
                       <path
                         d="M11 8.50004L6.5 3.88124L6.5 13.1188L11 8.50004Z"
@@ -133,7 +139,9 @@ function Menu() {
                     </p>
                   </a>
                   <div class="kuda-mobile--menu-item">
-                    <p class="footer-header text-bold  color-primary">Help</p>
+                    <Link to="/help">
+                      <p class="footer-header text-bold  color-primary">Help</p>
+                    </Link>
                     <svg width="16" height="17" viewBox="0 0 16 17" fill="none">
                       <path
                         d="M11 8.50004L6.5 3.88124L6.5 13.1188L11 8.50004Z"

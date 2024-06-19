@@ -252,7 +252,15 @@ ul {
 .navigation-menu-content p {
   font-size: 16px;
 }
-
+.page {
+  height: 100%;
+}
+.inner {
+  background-color: white;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+}
 .navigation-menu-item {
   /* padding: 4px 16px;
   display: block;
@@ -296,6 +304,7 @@ ul {
 .navigation-menu:hover .personal {
   width: 600px;
   display: flex;
+  min-height: 450px;
   justify-content: space-between;
 }
 .navigation-menu:hover .cont-right {

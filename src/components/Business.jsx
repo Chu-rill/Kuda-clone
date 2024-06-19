@@ -25,40 +25,42 @@ function Business() {
             </span>
           </Link>
         </div>
-        <span className="closeMenu animated fadeIn cursor-pointer">
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect
-              x="1.61414"
-              y="0.500275"
-              width="21"
-              height="2"
-              rx="1"
-              transform="rotate(45 1.61414 0.500275)"
-              fill="#40196D"
-            ></rect>
-            <rect
-              x="0.614136"
-              y="15.5003"
-              width="21"
-              height="2"
-              rx="1"
-              transform="rotate(-45 0.614136 15.5003)"
-              fill="#40196D"
-            ></rect>
-          </svg>
-        </span>
+        <Link to="/main">
+          <span className="closeMenu animated fadeIn cursor-pointer">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="1.61414"
+                y="0.500275"
+                width="21"
+                height="2"
+                rx="1"
+                transform="rotate(45 1.61414 0.500275)"
+                fill="#40196D"
+              ></rect>
+              <rect
+                x="0.614136"
+                y="15.5003"
+                width="21"
+                height="2"
+                rx="1"
+                transform="rotate(-45 0.614136 15.5003)"
+                fill="#40196D"
+              ></rect>
+            </svg>
+          </span>
+        </Link>
       </div>
-      <div class="kuda-mobile--navWrap show-options">
+      <div class="kuda-mobile--navWrap show-options page">
         <div class="nav-menu-wrap flex flex-column">
-          <div className="navigation-menu">
+          <div className="">
             <div className="navigation-menu-trigger">Business</div>
-            <div className="navigation-menu-content business flex flex-col">
+            <div className="navigation-menu-content business inner flex flex-col">
               <div className="cont-left2">
                 <p className="navigation-menu-item">
                   <span class="menu-link--icon">
