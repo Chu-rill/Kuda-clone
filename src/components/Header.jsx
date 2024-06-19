@@ -1,15 +1,5 @@
 import React, { useState } from "react";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-} from "@/components/ui/navigation-menu";
-import { Dropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 // import "@/style/header.css";
 import "@/style/header2.css";
 function Header() {
@@ -1400,14 +1390,16 @@ function Header() {
               </div>
             </div>
           </div>
-          <div className="mobile-toggle">
-            <div className="kuda-hamburger">
-              <div
-                className="kuda-hamburger--inner"
-                onClick={handleHamburgerClick}
-              ></div>
+          <Link to="/menu">
+            <div className="mobile-toggle">
+              <div className="kuda-hamburger">
+                <div
+                  className="kuda-hamburger--inner"
+                  // onClick={handleHamburgerClick}
+                ></div>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       </header>
       <div className={`dim-layer ${overlayActive ? "active" : ""}`}></div>

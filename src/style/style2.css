@@ -333,7 +333,8 @@ p {
 .mobile-container .kuda-footer--nav {
   width: 100%;
 }
-.kuda-mobile--menu {
+
+/* .kuda-mobile--menu {
   position: relative;
 }
 .mobile-menu-wrapper {
@@ -375,7 +376,7 @@ p {
   color: #666;
 }
 
-/* .kuda-mobile--brand {
+.kuda-mobile--brand {
   align-items: center;
   background-color: #fff;
   display: flex;
@@ -386,6 +387,7 @@ p {
   width: 100%;
   z-index: 9;
 }
+
 .kuda-mobile--navWrap {
   animation: slide-in-out 0.6s cubic-bezier(0.455, 0.03, 0, 1) forwards;
   background-color: #fff;
@@ -398,7 +400,8 @@ p {
 }
 .kuda-brand {
   min-width: 100px;
-}
+} */
+/*
 a {
   color: inherit;
   text-decoration: none;
@@ -460,6 +463,60 @@ a {
 .mobile-container .kuda-footer--nav {
   width: 100%;
 } */
+.kuda-mobile--brand {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+.kuda-brand {
+  min-width: 100px;
+}
+.closeMenu {
+  animation-delay: 0.35s;
+  animation-duration: 0.8s !important;
+  position: absolute;
+  right: 25px;
+  top: 24px;
+  z-index: 1;
+}
+.kuda-mobile--navWrap {
+  animation: slide-in-out 0.6s cubic-bezier(0.455, 0.03, 0, 1) forwards;
+  background-color: #fff;
+  opacity: 0;
+  overflow-y: scroll;
+  padding: 0 0 20px 20px;
+  position: absolute;
+  top: 108px;
+  width: 100%;
+}
+.kuda-menu--actions {
+  animation: slide-in-out 0.6s cubic-bezier(0.455, 0.03, 0, 1) forwards;
+  background-color: #fff;
+  opacity: 0;
+  padding: 20px;
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  z-index: 100;
+}
+.kuda-mobile--menu-item:not(:last-child) {
+  border-bottom: 1px solid hsla(228, 7%, 87%, 0.5);
+}
+.kuda-mobile--menu-item {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+}
 /* Media Queries */
 
 /* Large screens */
@@ -535,7 +592,7 @@ a {
   .plan-full .plan-single {
     width: 50%;
   }
-  /* .kuda-mobile--menu {
+  .kuda-mobile--menu {
     background: rgba(64, 25, 109, 0.2);
     background-color: #fff;
     bottom: 0;
@@ -546,7 +603,7 @@ a {
     right: 0;
     top: 0;
     width: 100%;
-    z-index: 99999;
+    /* z-index: 99999; */
   }
   .kuda-mobile--menu .kuda-menu--wrap {
     align-items: flex-start !important;
@@ -557,10 +614,6 @@ a {
     margin-left: auto;
     width: 100%;
   }
-  .kuda-menu--wrap,
-  .kuda-menu--wrap-careers {
-    display: none !important;
-  }
   .kuda-menu--actions {
     left: 50%;
     margin-left: auto;
@@ -568,20 +621,8 @@ a {
     max-width: 550px;
     transform: translateX(-50%);
   }
-  .kuda-cta-md {
-    max-width: 115px;
-  }
   .nav-menu-wrap {
     margin-top: 25px;
-  } */
-  .kuda-mobile--navWrap {
-    width: 300px;
-    height: auto;
-    padding: 40px;
-    transform: translateX(-300px);
-  }
-  .kuda-mobile--navWrap.open {
-    transform: translateX(0);
   }
 }
 
@@ -944,8 +985,8 @@ a {
   width: 100vw;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 5%;
+  padding-right: 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
