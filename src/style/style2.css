@@ -495,6 +495,7 @@ a {
   position: absolute;
   top: 108px;
   width: 100%;
+  /* margin-top: 20px;/ */
 }
 .kuda-menu--actions {
   animation: slide-in-out 0.6s cubic-bezier(0.455, 0.03, 0, 1) forwards;
@@ -623,6 +624,9 @@ a {
   }
   .nav-menu-wrap {
     margin-top: 25px;
+  }
+  .kuda-mobile--navWrap.show-options {
+    top: 50px;
   }
 }
 

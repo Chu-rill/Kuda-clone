@@ -66,7 +66,7 @@ function Menu() {
                 </span>
               </Link>
             </div>
-            <div className="kuda-mobile--navWrap ">
+            <div className="kuda-mobile--navWrap show-options">
               <div className="kuda-menu--actions flex">
                 <a
                   class="kuda-mobile--action kuda-cta kuda-cta-md mr-3 kuda_web"

@@ -1,28 +1,31 @@
 import React from "react";
 import "@/style/style2.css";
 import "@/style/main.css";
+import { Link } from "react-router-dom";
 function Personal() {
   return (
     <div>
       <div className="kuda-mobile--brand">
         <div className="flex flex-row align-center cursor-pointer">
-          <span className="mr-2 flex items-center">
-            <svg
-              width="5"
-              height="10"
-              viewBox="0 0 5 10"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M3.97399 9.79687L0.121736 5.33966C-0.0405785 5.15204 -0.0405785 4.84891 0.121736 4.6608L3.97399 0.203586C4.2083 -0.0678621 4.58953 -0.0678621 4.82426 0.203586C5.05858 0.475035 5.05858 0.91559 4.82426 1.18704L1.81142 4.67351C1.64916 4.86128 1.64917 5.13965 1.81146 5.3274L4.82426 8.81293C5.05858 9.08487 5.05858 9.52542 4.82426 9.79687C4.58953 10.0683 4.2083 10.0683 3.97399 9.79687Z"
-                fill="#40196D"
-              ></path>
-            </svg>
-            <span class="color-primary text-sm ml-3">Back</span>
-          </span>
+          <Link to="/menu">
+            <span className="mr-2 flex items-center">
+              <svg
+                width="5"
+                height="10"
+                viewBox="0 0 5 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.97399 9.79687L0.121736 5.33966C-0.0405785 5.15204 -0.0405785 4.84891 0.121736 4.6608L3.97399 0.203586C4.2083 -0.0678621 4.58953 -0.0678621 4.82426 0.203586C5.05858 0.475035 5.05858 0.91559 4.82426 1.18704L1.81142 4.67351C1.64916 4.86128 1.64917 5.13965 1.81146 5.3274L4.82426 8.81293C5.05858 9.08487 5.05858 9.52542 4.82426 9.79687C4.58953 10.0683 4.2083 10.0683 3.97399 9.79687Z"
+                  fill="#40196D"
+                ></path>
+              </svg>
+              <span class="color-primary text-sm ml-3">Back</span>
+            </span>
+          </Link>
         </div>
         <span className="closeMenu animated fadeIn cursor-pointer">
           <svg
